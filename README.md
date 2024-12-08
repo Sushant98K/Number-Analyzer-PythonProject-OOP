@@ -24,3 +24,15 @@ To use the Number Analyzer, follow these steps:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+
+---
+
+### Instructions to Use
+1. Replace `<repository-url>` with your project's GitHub repository URL.
+2. Save this text into a file named `README.md` in the root directory of your project.
+3. Commit and push it to GitHub:
+   ```bash
+   git add README.md
+   git commit -m "Add README file"
+   git push origin main
