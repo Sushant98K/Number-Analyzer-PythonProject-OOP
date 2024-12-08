@@ -1,3 +1,7 @@
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+This+is+Number+Analyzer;" />
+</h1>
+
 # Number Analyzer
 
 **Number Analyzer** is a command-line interface (CLI) application designed to help users analyze and manipulate numbers efficiently. This project provides a variety of functionalities, including adding and removing numbers, checking for prime numbers, finding factors, and performing basic statistical calculations.
