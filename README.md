@@ -1,6 +1,3 @@
-Here's a structured `.md` file based on your project description, formatted for use on GitHub:
-
-```markdown
 # Number Analyzer
 
 **Number Analyzer** is a command-line interface (CLI) application designed to help users analyze and manipulate numbers efficiently. This project provides a variety of functionalities, including adding and removing numbers, checking for prime numbers, finding factors, and performing basic statistical calculations.
