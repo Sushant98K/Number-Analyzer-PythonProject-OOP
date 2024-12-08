@@ -1,7 +1,7 @@
 class NumberAnalyzer:
     def __init__(self):
         """Initialize with an empty list of numbers."""
-        self.__numbers = []
+        self.__numbers = [] 
 
     def add_number(self, number):
         """Add a number to the list after validation."""
@@ -24,3 +24,16 @@ class NumberAnalyzer:
         if not self.__numbers:
             return "The list is empty."
         return ", ".join(map(str, self.__numbers))
+
+    def sort_numbers(self, reverse=False):
+        """Sort the numbers in ascending (default) or descending order."""
+        self.__numbers.sort(reverse=reverse)
+        return self.__numbers
+
+    def sum_numbers(self):
+        """Calculate and return the sum of all numbers in the list."""
+        return sum(self.__numbers)
+
+    def clear_numbers(self):
+        """Clear all numbers from the list."""
+        self.__numbers.clear()
