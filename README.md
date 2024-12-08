@@ -1,14 +1,26 @@
 # Number Analyzer
 
-```python
-import time
-import sys
+Number Analyzer is a command-line interface (CLI) application designed to help users analyze and manipulate numbers efficiently. This project provides a variety of functionalities, including adding and removing numbers, checking for prime numbers, finding factors, and performing basic statistical calculations.
 
-def typing_animation(text, delay=0.05):
-    for char in text:
-        sys.stdout.write(char)
-        sys.stdout.flush()
-        time.sleep(delay)
-    print()
+---
 
-typing_animation("Welcome to the Number Analyzer!", 0.1)
+## Features
+
+- **Add and Remove Numbers**: Easily manage a list of numbers with validation.
+- **Display Numbers**: View the current list of numbers in a user-friendly format.
+- **Check Prime Numbers**: Determine if a given number is prime.
+- **Find Factors**: Get all factors of a specified number.
+- **Sum of Numbers**: Calculate the total sum of all numbers in the list.
+- **Sort Numbers**: Sort the list of numbers in ascending or descending order.
+- **Check Even or Odd**: Identify whether a number is even or odd.
+- **Clear Numbers**: Remove all numbers from the list with a single command.
+
+---
+
+## Installation
+
+To use the Number Analyzer, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
