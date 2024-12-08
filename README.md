@@ -15,8 +15,14 @@
 ## Project Structure
 
 The project is organized as follows:
-
-number_analyzer/ │ ├── main.py # Entry point for the CLI application ├── number_analyzer.py # Base class (NumberAnalyzer) ├── advanced_analyzer.py # Derived class (AdvancedNumberAnalyzer) └── utils.py # Utility functions for advanced operations
+```bash
+number_analyzer/
+│
+├── main.py                 # Entry point for the CLI application
+├── number_analyzer.py      # Base class (NumberAnalyzer)
+├── advanced_analyzer.py    # Derived class (AdvancedNumberAnalyzer)
+└── utils.py                # Utility functions for advanced operations
+```
 
 ## Installation
 
