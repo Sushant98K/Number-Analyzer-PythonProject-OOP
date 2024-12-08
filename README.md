@@ -12,13 +12,25 @@
 - **Check Even or Odd:** Identify whether a number is even or odd.
 - **Clear Numbers:** Remove all numbers from the list with a single command.
 
+## Project Structure
+
+The project is organized as follows:
+
+number_analyzer/
+│
+├── main.py                 # Entry point for the CLI application
+├── number_analyzer.py      # Base class (NumberAnalyzer)
+├── advanced_analyzer.py    # Derived class (AdvancedNumberAnalyzer)
+└── utils.py                # Utility functions for advanced operations
+
+
 ## Installation
 
 To use the **Number Analyzer**, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Sushant98K/PythonProject-OOP.git
    ```
 
 2. **Navigate to the project directory:**
@@ -54,6 +66,3 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 ---
 
 Happy Coding! 🎉
-```
-
-You can copy this content into your `README.md` file. Make sure to replace `<repository-url>` with the actual URL of your GitHub repository.
