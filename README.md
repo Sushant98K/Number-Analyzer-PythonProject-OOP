@@ -1,38 +1,62 @@
+Here's a structured `.md` file based on your project description, formatted for use on GitHub:
+
+```markdown
 # Number Analyzer
 
-Number Analyzer is a command-line interface (CLI) application designed to help users analyze and manipulate numbers efficiently. This project provides a variety of functionalities, including adding and removing numbers, checking for prime numbers, finding factors, and performing basic statistical calculations.
-
----
+**Number Analyzer** is a command-line interface (CLI) application designed to help users analyze and manipulate numbers efficiently. This project provides a variety of functionalities, including adding and removing numbers, checking for prime numbers, finding factors, and performing basic statistical calculations.
 
 ## Features
-
-- **Add and Remove Numbers**: Easily manage a list of numbers with validation.
-- **Display Numbers**: View the current list of numbers in a user-friendly format.
-- **Check Prime Numbers**: Determine if a given number is prime.
-- **Find Factors**: Get all factors of a specified number.
-- **Sum of Numbers**: Calculate the total sum of all numbers in the list.
-- **Sort Numbers**: Sort the list of numbers in ascending or descending order.
-- **Check Even or Odd**: Identify whether a number is even or odd.
-- **Clear Numbers**: Remove all numbers from the list with a single command.
-
----
+- **Add and Remove Numbers:** Easily manage a list of numbers with validation.
+- **Display Numbers:** View the current list of numbers in a user-friendly format.
+- **Check Prime Numbers:** Determine if a given number is prime.
+- **Find Factors:** Get all factors of a specified number.
+- **Sum of Numbers:** Calculate the total sum of all numbers in the list.
+- **Sort Numbers:** Sort the list of numbers in ascending or descending order.
+- **Check Even or Odd:** Identify whether a number is even or odd.
+- **Clear Numbers:** Remove all numbers from the list with a single command.
 
 ## Installation
 
-To use the Number Analyzer, follow these steps:
+To use the **Number Analyzer**, follow these steps:
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone <repository-url>
+   ```
 
+2. **Navigate to the project directory:**
+   ```bash
+   cd NumberAnalyzer
+   ```
+
+3. **Run the application:**
+   ```bash
+   python main.py
+   ```
+
+## Usage
+
+Upon running the application, you will be presented with a menu of options. Simply enter the corresponding number to perform the desired action. The application will guide you through each step, providing prompts for input as needed.
+
+## Future Enhancements
+
+The following features are planned for future updates:
+- **Statistics Calculation:** Calculate mean, median, mode, and standard deviation.
+- **Number History:** Track the history of added and removed numbers.
+- **File I/O:** Save and load numbers from files for persistence.
+- **Graphical User Interface (GUI):** Develop a user-friendly GUI for easier interaction.
+- **Batch Operations:** Add or remove multiple numbers at once.
+- **Enhanced Sorting Options:** Sort numbers based on custom criteria.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please feel free to:
+- Submit a pull request.
+- Open an issue with detailed feedback.
 
 ---
 
-### Instructions to Use
-1. Replace `<repository-url>` with your project's GitHub repository URL.
-2. Save this text into a file named `README.md` in the root directory of your project.
-3. Commit and push it to GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Add README file"
-   git push origin main
+Happy Coding! 🎉
+```
+
+You can copy this content into your `README.md` file. Make sure to replace `<repository-url>` with the actual URL of your GitHub repository.
