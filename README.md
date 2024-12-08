@@ -59,10 +59,26 @@ The following features are planned for future updates:
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please feel free to:
-- Submit a pull request.
-- Open an issue with detailed feedback.
+Contributions are welcome! If you have suggestions for improvements or new features, please feel free to submit a pull request or open an issue.
 
+- **Fork the repository.**
+
+-Create a new branch for your feature/bug fix:
+
+    ```bash
+    git checkout -b feature-name
+    ```
+-Commit your changes:
+
+    ```bash
+    git commit -m "Description of changes"
+    ```
+-Push to your branch:
+
+    ```bash
+    git push origin feature-name
+    ```
+-Open a pull request.
 ---
 
 Happy Coding! 🎉
