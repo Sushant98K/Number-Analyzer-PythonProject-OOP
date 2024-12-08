@@ -63,22 +63,20 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 - **Fork the repository.**
 
--Create a new branch for your feature/bug fix:
+- Create a new branch for your feature/bug fix:
+```bash
+git checkout -b feature-name
+```
+- Commit your changes:
+```bash
+git commit -m "Description of changes"
+```
+- Push to your branch:
+```bash
+git push origin feature-name
+```
+- Open a pull request.
 
-    ```bash
-    git checkout -b feature-name
-    ```
--Commit your changes:
-
-    ```bash
-    git commit -m "Description of changes"
-    ```
--Push to your branch:
-
-    ```bash
-    git push origin feature-name
-    ```
--Open a pull request.
 ---
 
 Happy Coding! 🎉
